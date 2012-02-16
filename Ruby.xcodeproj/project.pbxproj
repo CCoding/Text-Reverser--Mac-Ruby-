@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D947301D147442B80084CED7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D947301C147442B80084CED7 /* Cocoa.framework */; };
+		D947301F147442B80084CED7 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D947301E147442B80084CED7 /* MacRuby.framework */; };
+		D9473026147442B80084CED7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9473024147442B80084CED7 /* InfoPlist.strings */; };
+		D9473028147442B80084CED7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9473027147442B80084CED7 /* main.m */; };
+		D947302D147442B90084CED7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D947302B147442B90084CED7 /* MainMenu.xib */; };
+		D9473030147442B90084CED7 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = D947302F147442B90084CED7 /* rb_main.rb */; };
+		D9473032147442B90084CED7 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = D9473031147442B90084CED7 /* AppDelegate.rb */; };
+		D94B39CC1476C906000FFEF6 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = D94B39CB1476C906000FFEF6 /* icon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D9473018147442B80084CED7 /* Text Reverser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Text Reverser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D947301C147442B80084CED7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D947301E147442B80084CED7 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		D9473023147442B80084CED7 /* Ruby-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ruby-Info.plist"; sourceTree = "<group>"; };
+		D9473025147442B80084CED7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9473027147442B80084CED7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9473029147442B80084CED7 /* Ruby-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ruby-Prefix.pch"; sourceTree = "<group>"; };
+		D947302C147442B90084CED7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D947302F147442B90084CED7 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		D9473031147442B90084CED7 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		D94B39CB1476C906000FFEF6 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9473015147442B80084CED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D947301D147442B80084CED7 /* Cocoa.framework in Frameworks */,
+				D947301F147442B80084CED7 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D947300D147442B80084CED7 = {
+			isa = PBXGroup;
+			children = (
+				D94B39CB1476C906000FFEF6 /* icon.icns */,
+				D9473021147442B80084CED7 /* Ruby */,
+				D947301B147442B80084CED7 /* Frameworks */,
+				D9473019147442B80084CED7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9473019147442B80084CED7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9473018147442B80084CED7 /* Text Reverser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D947301B147442B80084CED7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D947301C147442B80084CED7 /* Cocoa.framework */,
+				D947301E147442B80084CED7 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9473021147442B80084CED7 /* Ruby */ = {
+			isa = PBXGroup;
+			children = (
+				D9473031147442B90084CED7 /* AppDelegate.rb */,
+				D947302A147442B90084CED7 /* Resources */,
+				D947302E147442B90084CED7 /* Other Sources */,
+				D9473022147442B80084CED7 /* Supporting Files */,
+			);
+			path = Ruby;
+			sourceTree = "<group>";
+		};
+		D9473022147442B80084CED7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9473023147442B80084CED7 /* Ruby-Info.plist */,
+				D9473024147442B80084CED7 /* InfoPlist.strings */,
+				D9473027147442B80084CED7 /* main.m */,
+				D9473029147442B80084CED7 /* Ruby-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D947302A147442B90084CED7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D947302B147442B90084CED7 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D947302E147442B90084CED7 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D947302F147442B90084CED7 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		D9473020147442B80084CED7 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = D9473038147442B90084CED7 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		D9473017147442B80084CED7 /* Ruby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9473035147442B90084CED7 /* Build configuration list for PBXNativeTarget "Ruby" */;
+			buildPhases = (
+				D9473014147442B80084CED7 /* Sources */,
+				D9473015147442B80084CED7 /* Frameworks */,
+				D9473016147442B80084CED7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ruby;
+			productName = Ruby;
+			productReference = D9473018147442B80084CED7 /* Text Reverser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D947300F147442B80084CED7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Privat;
+			};
+			buildConfigurationList = D9473012147442B80084CED7 /* Build configuration list for PBXProject "Ruby" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D947300D147442B80084CED7;
+			productRefGroup = D9473019147442B80084CED7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9473017147442B80084CED7 /* Ruby */,
+				D9473020147442B80084CED7 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9473016147442B80084CED7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9473026147442B80084CED7 /* InfoPlist.strings in Resources */,
+				D947302D147442B90084CED7 /* MainMenu.xib in Resources */,
+				D9473030147442B90084CED7 /* rb_main.rb in Resources */,
+				D9473032147442B90084CED7 /* AppDelegate.rb in Resources */,
+				D94B39CC1476C906000FFEF6 /* icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9473014147442B80084CED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9473028147442B80084CED7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D9473024147442B80084CED7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9473025147442B80084CED7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D947302B147442B90084CED7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D947302C147442B90084CED7 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9473033147442B90084CED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D9473034147442B90084CED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D9473036147442B90084CED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ruby/Ruby-Prefix.pch";
+				INFOPLIST_FILE = "Ruby/Ruby-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "Text Reverser";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D9473037147442B90084CED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ruby/Ruby-Prefix.pch";
+				INFOPLIST_FILE = "Ruby/Ruby-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "Text Reverser";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D9473039147442B90084CED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		D947303A147442B90084CED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9473012147442B80084CED7 /* Build configuration list for PBXProject "Ruby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9473033147442B90084CED7 /* Debug */,
+				D9473034147442B90084CED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9473035147442B90084CED7 /* Build configuration list for PBXNativeTarget "Ruby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9473036147442B90084CED7 /* Debug */,
+				D9473037147442B90084CED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9473038147442B90084CED7 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9473039147442B90084CED7 /* Debug */,
+				D947303A147442B90084CED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D947300F147442B80084CED7 /* Project object */;
+}
